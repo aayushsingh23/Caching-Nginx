@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: backend-html
+data:
+  index.html: |
+    <html>
+    <head><title>Backend Service</title></head>
+    <body><h1>Hello from the Backend Service!</h1></body>
+    </html>
